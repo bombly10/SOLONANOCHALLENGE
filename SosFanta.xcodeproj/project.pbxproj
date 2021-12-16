@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2034579F2767AA7A008A66C4 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034579E2767AA7A008A66C4 /* TipsView.swift */; };
+		203E61242764C67C00394CA5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E61232764C67B00394CA5 /* MainView.swift */; };
+		204E2BA227688CB200F06C67 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E2BA127688CB200F06C67 /* Date.swift */; };
+		204E97022767414F00E291CF /* ComponentCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97012767414F00E291CF /* ComponentCategories.swift */; };
+		204E97042767608300E291CF /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97032767608300E291CF /* CategoriesView.swift */; };
+		204E97062767845A00E291CF /* MainNewsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204E97052767845A00E291CF /* MainNewsComponent.swift */; };
+		20F3A78A2763599B0059D852 /* SosFantaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3A7892763599B0059D852 /* SosFantaApp.swift */; };
+		20F3A78C2763599B0059D852 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3A78B2763599B0059D852 /* NewsView.swift */; };
+		20F3A78E2763599C0059D852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F3A78D2763599C0059D852 /* Assets.xcassets */; };
+		20F3A7912763599D0059D852 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F3A7902763599C0059D852 /* Preview Assets.xcassets */; };
+		20F3A79B2763599D0059D852 /* SosFantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3A79A2763599D0059D852 /* SosFantaTests.swift */; };
+		20F3A7A52763599D0059D852 /* SosFantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3A7A42763599D0059D852 /* SosFantaUITests.swift */; };
+		20F3A7A72763599D0059D852 /* SosFantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3A7A62763599D0059D852 /* SosFantaUITestsLaunchTests.swift */; };
+		20F3A7B527635C440059D852 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3A7B427635C440059D852 /* Item.swift */; };
+		20FC758D2764ACC20092DAE3 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC758C2764ACC20092DAE3 /* ItemRow.swift */; };
+		20FE4F3F2767A5F800F567FD /* TipsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FE4F3E2767A5F800F567FD /* TipsComponent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F3A7972763599D0059D852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F3A77E2763599B0059D852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F3A7852763599B0059D852;
+			remoteInfo = SosFanta;
+		};
+		20F3A7A12763599D0059D852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F3A77E2763599B0059D852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F3A7852763599B0059D852;
+			remoteInfo = SosFanta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2034579E2767AA7A008A66C4 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		203E61232764C67B00394CA5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		204E2BA127688CB200F06C67 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		204E97012767414F00E291CF /* ComponentCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCategories.swift; sourceTree = "<group>"; };
+		204E97032767608300E291CF /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		204E97052767845A00E291CF /* MainNewsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNewsComponent.swift; sourceTree = "<group>"; };
+		20F3A7862763599B0059D852 /* SosFanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosFanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F3A7892763599B0059D852 /* SosFantaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosFantaApp.swift; sourceTree = "<group>"; };
+		20F3A78B2763599B0059D852 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		20F3A78D2763599C0059D852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20F3A7902763599C0059D852 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20F3A7962763599D0059D852 /* SosFantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosFantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F3A79A2763599D0059D852 /* SosFantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosFantaTests.swift; sourceTree = "<group>"; };
+		20F3A7A02763599D0059D852 /* SosFantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosFantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F3A7A42763599D0059D852 /* SosFantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosFantaUITests.swift; sourceTree = "<group>"; };
+		20F3A7A62763599D0059D852 /* SosFantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosFantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20F3A7B427635C440059D852 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		20FC758C2764ACC20092DAE3 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		20FE4F3E2767A5F800F567FD /* TipsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsComponent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F3A7832763599B0059D852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3A7932763599D0059D852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3A79D2763599D0059D852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F3A77D2763599B0059D852 = {
+			isa = PBXGroup;
+			children = (
+				20F3A7882763599B0059D852 /* SosFanta */,
+				20F3A7992763599D0059D852 /* SosFantaTests */,
+				20F3A7A32763599D0059D852 /* SosFantaUITests */,
+				20F3A7872763599B0059D852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20F3A7872763599B0059D852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F3A7862763599B0059D852 /* SosFanta.app */,
+				20F3A7962763599D0059D852 /* SosFantaTests.xctest */,
+				20F3A7A02763599D0059D852 /* SosFantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F3A7882763599B0059D852 /* SosFanta */ = {
+			isa = PBXGroup;
+			children = (
+				20FC75892764AC580092DAE3 /* View */,
+				20F3A7B327635BFB0059D852 /* Model */,
+				20F3A7892763599B0059D852 /* SosFantaApp.swift */,
+				20F3A78D2763599C0059D852 /* Assets.xcassets */,
+				20F3A78F2763599C0059D852 /* Preview Content */,
+			);
+			path = SosFanta;
+			sourceTree = "<group>";
+		};
+		20F3A78F2763599C0059D852 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20F3A7902763599C0059D852 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20F3A7992763599D0059D852 /* SosFantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				20F3A79A2763599D0059D852 /* SosFantaTests.swift */,
+			);
+			path = SosFantaTests;
+			sourceTree = "<group>";
+		};
+		20F3A7A32763599D0059D852 /* SosFantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20F3A7A42763599D0059D852 /* SosFantaUITests.swift */,
+				20F3A7A62763599D0059D852 /* SosFantaUITestsLaunchTests.swift */,
+			);
+			path = SosFantaUITests;
+			sourceTree = "<group>";
+		};
+		20F3A7B327635BFB0059D852 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F3A7B427635C440059D852 /* Item.swift */,
+				204E2BA127688CB200F06C67 /* Date.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20FC75892764AC580092DAE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20F3A78B2763599B0059D852 /* NewsView.swift */,
+				203E61232764C67B00394CA5 /* MainView.swift */,
+				204E97032767608300E291CF /* CategoriesView.swift */,
+				2034579E2767AA7A008A66C4 /* TipsView.swift */,
+				20FC758C2764ACC20092DAE3 /* ItemRow.swift */,
+				204E97012767414F00E291CF /* ComponentCategories.swift */,
+				204E97052767845A00E291CF /* MainNewsComponent.swift */,
+				20FE4F3E2767A5F800F567FD /* TipsComponent.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F3A7852763599B0059D852 /* SosFanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3A7AA2763599D0059D852 /* Build configuration list for PBXNativeTarget "SosFanta" */;
+			buildPhases = (
+				20F3A7822763599B0059D852 /* Sources */,
+				20F3A7832763599B0059D852 /* Frameworks */,
+				20F3A7842763599B0059D852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SosFanta;
+			productName = SosFanta;
+			productReference = 20F3A7862763599B0059D852 /* SosFanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20F3A7952763599D0059D852 /* SosFantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3A7AD2763599D0059D852 /* Build configuration list for PBXNativeTarget "SosFantaTests" */;
+			buildPhases = (
+				20F3A7922763599D0059D852 /* Sources */,
+				20F3A7932763599D0059D852 /* Frameworks */,
+				20F3A7942763599D0059D852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F3A7982763599D0059D852 /* PBXTargetDependency */,
+			);
+			name = SosFantaTests;
+			productName = SosFantaTests;
+			productReference = 20F3A7962763599D0059D852 /* SosFantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20F3A79F2763599D0059D852 /* SosFantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3A7B02763599D0059D852 /* Build configuration list for PBXNativeTarget "SosFantaUITests" */;
+			buildPhases = (
+				20F3A79C2763599D0059D852 /* Sources */,
+				20F3A79D2763599D0059D852 /* Frameworks */,
+				20F3A79E2763599D0059D852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F3A7A22763599D0059D852 /* PBXTargetDependency */,
+			);
+			name = SosFantaUITests;
+			productName = SosFantaUITests;
+			productReference = 20F3A7A02763599D0059D852 /* SosFantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F3A77E2763599B0059D852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					20F3A7852763599B0059D852 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					20F3A7952763599D0059D852 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 20F3A7852763599B0059D852;
+					};
+					20F3A79F2763599D0059D852 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 20F3A7852763599B0059D852;
+					};
+				};
+			};
+			buildConfigurationList = 20F3A7812763599B0059D852 /* Build configuration list for PBXProject "SosFanta" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F3A77D2763599B0059D852;
+			productRefGroup = 20F3A7872763599B0059D852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F3A7852763599B0059D852 /* SosFanta */,
+				20F3A7952763599D0059D852 /* SosFantaTests */,
+				20F3A79F2763599D0059D852 /* SosFantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F3A7842763599B0059D852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3A7912763599D0059D852 /* Preview Assets.xcassets in Resources */,
+				20F3A78E2763599C0059D852 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3A7942763599D0059D852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3A79E2763599D0059D852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F3A7822763599B0059D852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2034579F2767AA7A008A66C4 /* TipsView.swift in Sources */,
+				20F3A78C2763599B0059D852 /* NewsView.swift in Sources */,
+				204E97042767608300E291CF /* CategoriesView.swift in Sources */,
+				204E97022767414F00E291CF /* ComponentCategories.swift in Sources */,
+				20F3A7B527635C440059D852 /* Item.swift in Sources */,
+				20F3A78A2763599B0059D852 /* SosFantaApp.swift in Sources */,
+				20FE4F3F2767A5F800F567FD /* TipsComponent.swift in Sources */,
+				203E61242764C67C00394CA5 /* MainView.swift in Sources */,
+				204E2BA227688CB200F06C67 /* Date.swift in Sources */,
+				20FC758D2764ACC20092DAE3 /* ItemRow.swift in Sources */,
+				204E97062767845A00E291CF /* MainNewsComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3A7922763599D0059D852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3A79B2763599D0059D852 /* SosFantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F3A79C2763599D0059D852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F3A7A72763599D0059D852 /* SosFantaUITestsLaunchTests.swift in Sources */,
+				20F3A7A52763599D0059D852 /* SosFantaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F3A7982763599D0059D852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F3A7852763599B0059D852 /* SosFanta */;
+			targetProxy = 20F3A7972763599D0059D852 /* PBXContainerItemProxy */;
+		};
+		20F3A7A22763599D0059D852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F3A7852763599B0059D852 /* SosFanta */;
+			targetProxy = 20F3A7A12763599D0059D852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20F3A7A82763599D0059D852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20F3A7A92763599D0059D852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F3A7AB2763599D0059D852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SosFanta/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F44NFZLPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felice.SosFanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20F3A7AC2763599D0059D852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SosFanta/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F44NFZLPT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felice.SosFanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20F3A7AE2763599D0059D852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F44NFZLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felice.SosFantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosFanta.app/SosFanta";
+			};
+			name = Debug;
+		};
+		20F3A7AF2763599D0059D852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F44NFZLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felice.SosFantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosFanta.app/SosFanta";
+			};
+			name = Release;
+		};
+		20F3A7B12763599D0059D852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F44NFZLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felice.SosFantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosFanta;
+			};
+			name = Debug;
+		};
+		20F3A7B22763599D0059D852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F44NFZLPT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Felice.SosFantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosFanta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F3A7812763599B0059D852 /* Build configuration list for PBXProject "SosFanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3A7A82763599D0059D852 /* Debug */,
+				20F3A7A92763599D0059D852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3A7AA2763599D0059D852 /* Build configuration list for PBXNativeTarget "SosFanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3A7AB2763599D0059D852 /* Debug */,
+				20F3A7AC2763599D0059D852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3A7AD2763599D0059D852 /* Build configuration list for PBXNativeTarget "SosFantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3A7AE2763599D0059D852 /* Debug */,
+				20F3A7AF2763599D0059D852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3A7B02763599D0059D852 /* Build configuration list for PBXNativeTarget "SosFantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F3A7B12763599D0059D852 /* Debug */,
+				20F3A7B22763599D0059D852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F3A77E2763599B0059D852 /* Project object */;
+}
